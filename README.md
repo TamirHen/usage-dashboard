@@ -2,7 +2,7 @@
 # Usage Dashboard Task - Tamir Hen
 
 ## About The Project
-Hello, this is my solution for the Orbital Witness technical task, hope you'd find it interesting.  
+Hello, this is my solution for the Orbital Witness technical task, hope you'll find it interesting.  
 The project is divided into two parts:
 * Backend - Python & FastAPI
 * Frontend - TypeScript & React
@@ -11,7 +11,7 @@ A few things to note:
 * I have added comments in the code to help review it.
 * The timestamp returning from the `messages` API is in UTC (+00:00) time. I wasn't sure if the requirement is to show the usage in UTC as provided, or in BST (+01:00).
 The example table in the task brief shows the first two messages in their UTC time, hence I decided to show the time in UTC. This is documented in comments above the code blocks where it's applied. 
-* It is possible to test the backend directly by opening the FastAPI Swagger at (default url):  
+* It is possible to test the backend directly by opening the FastAPI Swagger at (default URL):  
 http://127.0.0.1:8000/docs
 
 ## Prerequisites
