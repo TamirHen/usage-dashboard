@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px;
+
+  .main-container {
+    min-width: 801px;
+
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .description {
+      font-size: 18px;
+    }
+
+    .dashboard-wrapper {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+
+}
